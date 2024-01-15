@@ -61,7 +61,7 @@ main() {
     ensure curl -L "$BINARY_URL" -o "$BIN_DIR/plz"
     chmod +x "$BIN_DIR/plz"
 
-    echo "installed - $("$BIN_DIR/plz" --version)"
+    echo "installed - $("$BIN_DIR/plz" --version) in $BIN_DIR/plz"
 }
 
 # Run a command that should never fail. If the command fails execution
